@@ -1,6 +1,9 @@
 package Soal2;
 
 public class Constants2 {
+    static {
+        System.out.println("Static Block Executed!");
+    }
     public static final double CM_PER_INCH = 2.54;
     public static void main(String[] args) {
         double paperWidth = 8.5;
