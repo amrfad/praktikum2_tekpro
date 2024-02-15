@@ -7,13 +7,14 @@ public class Soal1
     {
         // Menerima input untuk banyaknya test case
         int T;
+        System.out.print("Berapa banyak data yang ingin diuji: ");
         Scanner sc = new Scanner(System.in);
         T = sc.nextInt();
-        System.out.println(T);
         
         // Menerima nilai-nilai dan menyimpannya ke array
         BigInteger[] arr = new BigInteger[T];
         for (int i = 0; i < T; i++){
+            System.out.print("data ke-"+i+": ");
             arr[i] = sc.nextBigInteger();
         }
 
