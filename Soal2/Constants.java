@@ -4,7 +4,7 @@ public class Constants
 {
     public static void main(String[] args)
     { 
-        //
+        // konstanta untuk convert inch ke cm
         final double CM_PER_INCH = 2.54;
 
         // Ukuran dari kertas dalam satuan inch
